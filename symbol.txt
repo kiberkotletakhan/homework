@@ -1,0 +1,109 @@
+BEGIN - executes a code when the program is started
+END - executes a code when the program ends
+alias - create another name for a function^
+and - loop/conditional iterator
+break - stops a loop (conditional)
+case - conditional iterator
+class - defines a new class
+def - starts a method
+defined? - checks if the class, method... is defined already^
+do - executes if the condition is satisfied
+else - executes if 'if' and 'elsif' are not satisfied
+elsif - executes if 'if' is not satisfied
+end - ends a method, loop, conditional, module...
+ensure - runs a code whether or not the condition is satisfied^
+for - loop iterator
+if - conditional iterator that executes the action if the condition is satisfied
+in - loop iterator
+module - defines a new module
+next - skips to the next element of an .each iterator
+not - conditional iterator
+or - conditional iterator
+redo - return a code block exactly the same^
+rescue - runs the code if an exception happens^
+self - the current object, class or module^
+super - the parent class of this class^
+then - can be used optionaly in conditional
+undef - remove a definition from this class^
+unless - loop iterator
+until - loop iterator
+when - loop iterator
+while - loop iterator
+yield - pause and transfer a code block^
+
+true - boolean (gives a value of true)
+false - boolean (gives a value of false)
+nil - nothing
+strings - stores textual information
+numbers - stores integers
+floats - stores decimals
+arrays - stores both strings and variables
+hashes - stores key => value
+
+\\ - backslash
+\' - single quote
+\" - double quote
+\a - bell^
+\b - backspace^
+\f - formfeed^
+\n - newline^
+\r - carriage^
+\t - tab^
+\v - vertical tab^
+
++ - plus
+- - minus
+* - multiply
+** - power of
+/ - divide
+% - module
+> - greater than
+. - dot
+:: - colon access^
+[] - list brackets^
+! - not
+< - less than
+> - greater than
+>= - greater or equal than
+<= - less or equal than
+<=> - comparison^
+== - equal
+=== - equivalent
+!= - not equal
+&& - and
+|| - or
+.. - inclusive
+... - exclusive
+@ - object scope^
+@@ - class scope^
+$ - global scope^
+
+
+
+exam1
+module = done
+class = done
+method = done
+hash = done
+loops = done
+booleans = done
+array = done
+passed 71.25%
+
+exam2
+class = done
+module = done
+object = done
+ruby style guide = not done
+
+def update
+  puts "do you want any changes"
+  changes = gets.chomp
+  if changes == "yes"
+    change
+  elsif answer == "no"
+    puts "the pet remains the same"
+  else
+    puts "i did not understand"
+  end
+end
